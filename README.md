@@ -57,7 +57,7 @@ python train.py --task=all
 Note that, if the loss stick on 1 at the beginning, it means the network doesn't converge to near-perfect accuracy, please try restart it.
 
 ### Citation
-If you find this project useful, we would be grateful if you cite the TensorLayer paper：
+If you find this project useful, we would be grateful if you cite the our MIUA paper：
 
 ```
 @inproceedings{dong2017automatic,
