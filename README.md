@@ -1,5 +1,22 @@
 # U-Net Brain Tumor Segmentation 
 
+This is the official implementation code for [Automatic brain tumor detection and segmentation using U-Net based fully convolutional networks](https://arxiv.org/pdf/1705.03820).
+
+Dong, Hao, Guang Yang, Fangde Liu, Yuanhan Mo, and Yike Guo. "Automatic brain tumor detection and segmentation using u-net based fully convolutional networks." In annual conference on medical image understanding and analysis, pp. 506-517. Springer, Cham, 2017.
+
+If you use this code for your research, please cite our paper.
+
+```
+@inproceedings{dong2017automatic,
+  title={Automatic brain tumor detection and segmentation using U-Net based fully convolutional networks},
+  author={Dong, Hao and Yang, Guang and Liu, Fangde and Mo, Yuanhan and Guo, Yike},
+  booktitle={annual conference on medical image understanding and analysis},
+  pages={506--517},
+  year={2017},
+  organization={Springer}
+}
+```
+
 🚀：Feb 2019 the data processing implementation in this repo is not the fastest way (code need update, contribution is welcome), you can use TensorFlow dataset API instead.
 
 This repo show you how to train a U-Net for brain tumor segmentation. By default, you need to download the training set of [BRATS 2017](http://braintumorsegmentation.org) dataset, which have 210 HGG and 75 LGG volumes, and put the data folder along with all scripts.
@@ -55,18 +72,3 @@ python train.py --task=all
 ```
 
 Note that, if the loss stick on 1 at the beginning, it means the network doesn't converge to near-perfect accuracy, please try restart it.
-
-### Citation
-If you find this project useful, we would be grateful if you cite the our MIUA paper：
-
-```
-@inproceedings{dong2017automatic,
-  title={Automatic brain tumor detection and segmentation using U-Net based fully convolutional networks},
-  author={Dong, Hao and Yang, Guang and Liu, Fangde and Mo, Yuanhan and Guo, Yike},
-  booktitle={annual conference on medical image understanding and analysis},
-  pages={506--517},
-  year={2017},
-  organization={Springer}
-}
-```
-
