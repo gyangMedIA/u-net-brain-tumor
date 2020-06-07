@@ -61,7 +61,7 @@ If you find this project useful, we would be grateful if you cite the TensorLaye
 
 ```
 @inproceedings{dong2017automatic,
-  title={Automatic brain tumor detection and segmentation using u-net based fully convolutional networks},
+  title={Automatic brain tumor detection and segmentation using U-Net based fully convolutional networks},
   author={Dong, Hao and Yang, Guang and Liu, Fangde and Mo, Yuanhan and Guo, Yike},
   booktitle={annual conference on medical image understanding and analysis},
   pages={506--517},
