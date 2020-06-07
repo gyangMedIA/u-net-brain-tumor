@@ -60,12 +60,13 @@ Note that, if the loss stick on 1 at the beginning, it means the network doesn't
 If you find this project useful, we would be grateful if you cite the TensorLayer paper：
 
 ```
-@article{tensorlayer2017,
-author = {Dong, Hao and Supratak, Akara and Mai, Luo and Liu, Fangde and Oehmichen, Axel and Yu, Simiao and Guo, Yike},
-journal = {ACM Multimedia},
-title = {{TensorLayer: A Versatile Library for Efficient Deep Learning Development}},
-url = {http://tensorlayer.org},
-year = {2017}
+@inproceedings{dong2017automatic,
+  title={Automatic brain tumor detection and segmentation using u-net based fully convolutional networks},
+  author={Dong, Hao and Yang, Guang and Liu, Fangde and Mo, Yuanhan and Guo, Yike},
+  booktitle={annual conference on medical image understanding and analysis},
+  pages={506--517},
+  year={2017},
+  organization={Springer}
 }
 ```
 
